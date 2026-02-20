@@ -1,0 +1,28 @@
+# Lista de pacotes essenciais
+# Última atualização: 2026-02-19
+
+system:
+  manager: apt
+  packages:
+    - batcat            # cat com syntax highlight
+    - codium            # VSCodium (VSCode sem telemetria)
+    - cron
+    - eza               # ls com steroids (com ícones e cores)
+    - foliate           # e-reader
+    - git
+    - htop              # monitor de recursos do sistema
+    - nvidia-driver-580 # driver gráfico proprietário
+    - python3           # python
+    - python3-pip       # para instalar o pipx
+    - python3-venv      # para inicializar o `uv`
+    - ripgrep           # grep com steroids
+    - sqlite3
+
+python_env:
+  manager: pipx
+  packages:
+    - uv                # gerenciador de projetos Python ultra-rápido
+    - uvx
+
+metadata:
+  description: "Meu setup básico"

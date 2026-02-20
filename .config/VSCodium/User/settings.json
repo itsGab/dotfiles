@@ -1,0 +1,46 @@
+{
+    // Configurações
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.iconTheme": "catppuccin-macchiato",
+    "editor.wordWrapColumn": 79,
+    "editor.wordWrap": "wordWrapColumn",
+    "ruff.lineLength": 79,
+    "editor.rulers": [
+        79
+    ],
+    "editor.fontFamily": "'FiraCode Nerd Font Mono', 'Droid Sans Mono', monospace",
+    "editor.fontLigatures": true,
+    //
+    // Formatação e Automação
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    //
+    // Especial para Python (Ruff)
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            // "source.fixAll.ruff": "explicit",
+            "source.organizeImports.ruff": "explicit",
+        }
+    },
+    //
+    // Visual e UI
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.maxLineCount": 5,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "explorer.compactFolders": false,
+    "editor.minimap.autohide": "mouseover",
+    //
+    // Terminal Integrado
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono'",
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "block",
+    "workbench.settings.applyToAllProfiles": [],
+}

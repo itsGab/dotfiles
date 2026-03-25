@@ -22,7 +22,7 @@ if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
 fi
 
 # PATH Unificado (Adicione aqui todos os seus caminhos)
-export PATH="$HOME/.local/bin:$HOME/.opencode/bin:$PATH"
+export PATH="/opt/nvim/:$HOME/.local/bin:$HOME/.opencode/bin:$PATH"
 
 # Carregar Aliases Externos (Mantenha seus atalhos aqui!)
 if [ -f ~/.bash_aliases ]; then

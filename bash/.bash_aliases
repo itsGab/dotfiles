@@ -42,10 +42,10 @@ alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push'
 alias gl='git log --oneline --graph --decorate'
+alias gd='git diff'
 
-# *** usar dentro do backend do projeto goma-social com `uv`.
-alias fast='uv run task run'  # roda o fastapi
-alias ut='uv run task test'
+# * usar na pasta com "uv" configurado.
+alias uvenv='source .venv/bin/activate'
 
 # scripts
 alias run_dots='~/Scripts/dots.sh'

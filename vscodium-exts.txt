@@ -1,7 +1,13 @@
+aaron-bond.better-comments
 catppuccin.catppuccin-vsc
 catppuccin.catppuccin-vsc-icons
 catppuccin.catppuccin-vsc-pack
 charliermarsh.ruff
+gruntfuggly.todo-tree
+jeanp413.open-remote-ssh
+ms-azuretools.vscode-containers
+ms-azuretools.vscode-docker
 ms-python.debugpy
 ms-python.python
 ms-python.vscode-python-envs
+qwtel.sqlite-viewer

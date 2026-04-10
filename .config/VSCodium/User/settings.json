@@ -60,4 +60,52 @@
     "todo-tree.general.tagGroups": {},
     "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
     "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+    "editor.minimap.enabled": false,
+    "todo-tree.filtering.excludeGlobs": [
+        "**/node_modules",
+        "**/.venv"
+    ],
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "IDEA",
+        "REFACT",
+        "???" //question
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "BUG": {
+            "icon": "bug"
+        },
+        "HACK": {
+            "icon": "tools"
+        },
+        "FIXME": {
+            "icon": "flame"
+        },
+        "XXX": {
+            "icon": "$(close)"
+        },
+        "IDEA": {
+            "foreground": "#F1C40F", // Amarelo "lâmpada"
+            "icon": "light-bulb",
+            "type": "text",
+            "iconColour": "#F1C40F"
+        },
+        "REFACT": {
+            "foreground": "#3498DB", // Azul "ferramenta"
+            "icon": "tools",
+            "type": "text",
+            "iconColour": "#3498DB"
+        },
+        "???": {
+            "foreground": "#ff37ff",
+            "icon": "question",
+            "type": "text",
+            "iconColour": "#ff37ff"
+        }
+    },
 }
